@@ -1,0 +1,82 @@
+﻿Build started 2013-01-18 11:40:29.
+     1>Project "C:\Users\Spellabbet\Desktop\Chapter 15--FSM\AISteroids\AISteroids.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\AISteroids.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GLUT_BUILDING_LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\AIControl.cpp ..\FSMAIControl.cpp ..\FSMMachine.cpp ..\StateApproach.cpp ..\StateAttack.cpp ..\StateEvade.cpp ..\StateGetPowerup.cpp ..\StateIdle.cpp ..\utility.cpp ..\Ast.cpp ..\Bullet.cpp ..\Exp.cpp ..\GameObj.cpp ..\Powerup.cpp ..\Ship.cpp ..\Target.cpp ..\asteroids.cpp ..\GameSession.cpp ..\HumanControl.cpp
+         HumanControl.cpp
+         GameSession.cpp
+         asteroids.cpp
+         Target.cpp
+         Ship.cpp
+         Powerup.cpp
+         GameObj.cpp
+         Exp.cpp
+         Bullet.cpp
+         Ast.cpp
+         utility.cpp
+         StateIdle.cpp
+         StateGetPowerup.cpp
+         StateEvade.cpp
+         StateAttack.cpp
+         StateApproach.cpp
+         FSMMachine.cpp
+         FSMAIControl.cpp
+         AIControl.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\AISteroids.exe.embed.manifest.res" .\Debug\AISteroids_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/AISteroids.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib glut32.lib glaux.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\AISteroids.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/AISteroids.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AISteroids.lib" /MACHINE:X86 .\Debug\AISteroids.exe.embed.manifest.res
+         .\Debug/AIControl.obj
+         .\Debug/FSMAIControl.obj
+         .\Debug/FSMMachine.obj
+         .\Debug/StateApproach.obj
+         .\Debug/StateAttack.obj
+         .\Debug/StateEvade.obj
+         .\Debug/StateGetPowerup.obj
+         .\Debug/StateIdle.obj
+         .\Debug/utility.obj
+         .\Debug/Ast.obj
+         .\Debug/Bullet.obj
+         .\Debug/Exp.obj
+         .\Debug/GameObj.obj
+         .\Debug/Powerup.obj
+         .\Debug/Ship.obj
+         .\Debug/Target.obj
+         .\Debug/asteroids.obj
+         .\Debug/GameSession.obj
+         .\Debug/HumanControl.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\AISteroids.exe.embed.manifest" /manifest .\Debug\AISteroids.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\AISteroids.exe.embed.manifest.res" .\Debug\AISteroids_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/AISteroids.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib glut32.lib glaux.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\AISteroids.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/AISteroids.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\AISteroids.lib" /MACHINE:X86 .\Debug\AISteroids.exe.embed.manifest.res
+         .\Debug/AIControl.obj
+         .\Debug/FSMAIControl.obj
+         .\Debug/FSMMachine.obj
+         .\Debug/StateApproach.obj
+         .\Debug/StateAttack.obj
+         .\Debug/StateEvade.obj
+         .\Debug/StateGetPowerup.obj
+         .\Debug/StateIdle.obj
+         .\Debug/utility.obj
+         .\Debug/Ast.obj
+         .\Debug/Bullet.obj
+         .\Debug/Exp.obj
+         .\Debug/GameObj.obj
+         .\Debug/Powerup.obj
+         .\Debug/Ship.obj
+         .\Debug/Target.obj
+         .\Debug/asteroids.obj
+         .\Debug/GameSession.obj
+         .\Debug/HumanControl.obj
+         AISteroids.vcxproj -> C:\Users\Spellabbet\Desktop\Chapter 15--FSM\AISteroids\.\Debug\AISteroids.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\AISteroids.unsuccessfulbuild".
+         Touching ".\Debug\AISteroids.lastbuildstate".
+     1>Done Building Project "C:\Users\Spellabbet\Desktop\Chapter 15--FSM\AISteroids\AISteroids.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.86
